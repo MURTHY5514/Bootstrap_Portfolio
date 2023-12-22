@@ -1,0 +1,6 @@
+.env
+my_venv/
+authapp/__pycache__
+blog/__pycache__
+Bootstrap_Portfolio/__pycache__
+Portfolio/__pycache__

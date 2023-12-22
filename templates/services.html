@@ -1,0 +1,107 @@
+{% extends "base.html" %}
+{% block title %}
+Murthy P G - Services
+{% endblock %}
+{% load static %}
+
+{% block body %}
+<!-- ======= Services Section ======= -->
+<section id="services" class="services">
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Services</h2>
+            <p>Explore our range of services designed to meet your needs and exceed your expectations.</p>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+                <div class="icon"><i class="bi bi-code-slash"></i></div>
+                <h4 class="title"><a href="#">Web Development</a></h4>
+                <p class="description">Crafting responsive and user-friendly websites tailored to your business goals and audience.</p>
+            </div>
+            <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+                <div class="icon"><i class="bi bi-laptop"></i></div>
+                <h4 class="title"><a href="#">Software Solutions</a></h4>
+                <p class="description">Building custom software solutions to streamline your business processes and boost efficiency.</p>
+            </div>
+            <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+                <div class="icon"><i class="bi bi-palette"></i></div>
+                <h4 class="title"><a href="#">Graphic Design</a></h4>
+                <p class="description">Creating visually appealing graphics and designs that leave a lasting impression.</p>
+            </div>
+            <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon"><i class="bi bi-cloud-upload"></i></div>
+                <h4 class="title"><a href="#">Cloud Services</a></h4>
+                <p class="description">Harnessing the power of the cloud for scalable and reliable data storage and access.</p>
+            </div>
+            <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+                <div class="icon"><i class="bi bi-headset"></i></div>
+                <h4 class="title"><a href="#">Customer Support</a></h4>
+                <p class="description">Providing exceptional customer support to ensure your satisfaction and success.</p>
+            </div>
+            <!-- <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
+                <div class="icon"><i class="bi bi-camera"></i></div>
+                <h4 class="title"><a href="#">Photography Services</a></h4>
+                <p class="description">Capturing moments and telling stories through professional photography services.</p>
+            </div> -->
+        </div>
+
+    </div>
+</section>
+<!-- End Services Section -->
+
+
+<!-- start Testimonials Section -->
+
+<section id="testimonials" class="testimonials section-bg">
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Testimonials</h2>
+            <p>Read what our clients have to say about us. Your satisfaction is our priority.</p>
+        </div>
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="testimonial-item" data-aos="fade-up">
+                        <p>
+                            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                            Working with this team has been an incredible experience. Their dedication to quality and
+                            attention to detail is unmatched. I highly recommend their services.
+                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                        </p>
+                        <img src="{% static 'assets/img/testimonials/testimonials-1.jpg' %}" class="testimonial-img"
+                            alt="">
+                        <h3>Alice Thompson</h3>
+                        <h4>Marketing Manager</h4>
+                    </div>
+                </div><!-- End testimonial item -->
+
+                <div class="swiper-slide">
+                    <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
+                        <p>
+                            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                            The design work provided by this team exceeded my expectations. They have a keen eye for
+                            aesthetics and a deep understanding of user experience.
+                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                        </p>
+                        <img src="{% static 'assets/img/testimonials/testimonials-2.jpg' %}" class="testimonial-img"
+                            alt="">
+                        <h3>Michael Rodriguez</h3>
+                        <h4>UX Designer</h4>
+                    </div>
+                </div><!-- End testimonial item -->
+
+                <!-- Add more testimonials with different content as needed -->
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+    </div>
+</section>
+<!-- End Testimonials Section -->
+{% endblock %}
